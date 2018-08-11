@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.8.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.8.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2-128x128-2.png" type="image/x-icon">
+  <meta name="description" content="How to create a simple bowling game using physics in Coppercube 3d.
+">
+  <title>How to use Physics in Coppercube</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="menu cid-qUH3bOHGgV" once="menu" id="menu1-63">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    
+                         <img src="assets/images/logo2-122x122.png" alt="Neophyte" title="" style="height: 3.8rem;">
+                    
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://neophyte.cf">Neophyte</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="index.html">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="tutorials.html"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn"></span>
+                        Tutorials</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="assetsdwnld.html"><span class="mbri-shopping-bag mbr-iconfont mbr-iconfont-btn"></span>Assets</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="articals.html"><span class="mbri-edit2 mbr-iconfont mbr-iconfont-btn"></span>Articles</a></li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobiri.se/s">bootstrap themes</a></section><section class="mbr-section content5 cid-qUH3bsPOlh mbr-parallax-background" id="content5-62">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Use of physics in Coppercube 3D Engine</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">In this tutorial we will be going to use physics simulation in Coppercube 3D game engine to create a simple bowling game.</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3bTx64K" id="header4-64">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 1</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Getting the resources</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">As always our first step toward creating a game will be getting the desired resources. In this tutorial we are going to use inbuilt 3D mesh primitives to create most of the resources except the bowling pins and directional arrow. We will be going to download textures from the internet for the bowling alley. You can use your own resources if you want.<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/main-1024x768.png" alt="Step 1" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3bXXTwe" id="header4-65">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 2</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Creating resources and aligning them</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Create a spheremesh for the bowling ball and some plane meshes to create the bowling alley. Apply Textures to them and align them so they look something more like a Bowling Alley. Position and Align the Bowling Pins on the Alley Floor. You can also add water to the floor to make it shiny and to create reflections.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step2.1-704x919.png" alt="Step 2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3c1h63Z" id="header4-66">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 3</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Adding physics to pins and ball</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Now add a new behaviour move object by physics engine to all the bowling pins. To make this process faster aplly physics behaviour to one pin and adjust physics settings like bodytype = Box , density, size etc, then copy behaviours of that pin and paste them to other pins. So that you don't have to adjust the physics settings for each pin.&nbsp;<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step3-1026x727.png" alt="Step 3" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3ccZOxY" id="header4-68">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Now add physics to the bowling ball this time change the bodytype to sphere instead of box. It is advided that you use the same density for pins and bowling ball.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step3.2-1022x727.png" alt="Step 4" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3clk3oa" id="header4-6a">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 4<br></h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Add Lights (Optional)</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">I have used dynamic materials for all the textures in this tutorial but if you want to use static lights then you can skip this step. Otherwise add few point lights to your Scene to make it more beautiful.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step4-1023x727.png" alt="Step 6" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3co0prK" id="header4-6b">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 5</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Adding Proximty</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">To detect that how many pins have been fallen on the ground, we will be going to use proximity behavior/ &nbsp;We will add dummy cubemesh to interact with that proximity behaviour.<br>First of all create a dummy cubemesh and make it child node of a pin. Disable collision for this cubemesh and adjust its position so that it will stay on top of the pin as shown in the picture below.<br>Remember to use "black" transparent &nbsp;texture for the cubemesh. Do same thing with all the other pins.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step5.1-1024x730.png" alt="Step 7" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3crRgTu" id="header4-6c">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Now create a plane mesh and scale it up so that it can cover all the pins. Adjust its position, so that it will stay on top of the pins but in between the cubemesh. Now add behavior on proximity do something to this planemesh. You have to add 10 instances of this behaviour because there are 10 Pins in our game.<br>adjust proximity size according to your game. And change "near to what" to a scenenode and choose a cubemesh which we have created in the above step. Change "trigerred when" to leave radius.<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step5.2-1023x730.png" alt="Step 7.2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3cDpf7K" id="header4-6d">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Now execute an action, set or change a variable.
+<br>variable name= pinfall
+<br>operation = Add value(+)
+<br>valuetype = value
+<br>value = 1
+<br><br>Do same thing with all remaining 9 proximity behaviours each time use a diffrent cubemesh as a near to which scenenode.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step5.3-1023x729.png" alt="Step 7.3" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3d0hc2M" id="header4-6f">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 6</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Controlling Bowling ball</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">It is known that we can not move an object controlled by phsyics with keyboard keys.<br>So to make our Bowling Ball moves, we will be going to add a FPS camera and then use the fps player to make the ball move.<br>Lets create a Fps camera and adjust its position so that it will stay just behind the ball each time the game starts. Now when we press Up key to make &nbsp;our fps player move forward, it will collide with the ball and ball will start moving.<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step6-1023x727.png" alt="Step 5" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3d9tJKf" id="header4-6g">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 7</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Adding Directional Arrow</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Download any arrow 3d model from internet and import it in the game adjust its postion and rotation so that it will stay in the center of the game pointing toward the Pins.<br>Now add new behavior every few seconds do something and change the time to 1ms.<br>Add a new action Execute Javascript and copy paste this code.<br><br>var Fpscam = ccbGetSceneNodeFromName("Camera1");
+<br>var rotation = ccbGetSceneNodeProperty(Fpscam, "Rotation");
+<br>
+<br>var Arrow = ccbGetSceneNodeFromName("arrow");
+<br>ccbSetSceneNodeProperty(Arrow, "Rotation", 270,-rotation.y,0);
+<br><br>change "arrow" and "camera1" according to the name of your camera and name of you 3d Arrow.<br><br><br><br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step7-1021x728.png" alt="Step 5" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3djXu4O" id="header4-6h">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 8</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Limiting the Fps camera movement</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">To stop the movement of the camera once the ball starts moving and to make it not fall from the alley we will be going to block the movement by colliding the camera with planesmeshes.<br>create 3 vertical planemesh and position them to left right and back of fps camera mesh.<br>so that it can move into the forward direction only, when the user press any other movement keys then it will collide with the planemesh and will stay on its position.<br>Always remember to use transparent mesh for all the &nbsp;colliding/blocking or dummy meshes in your scene.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/step8-1023x727.png" alt="Step 5" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qUH3dtYw6P" id="header4-6i">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 9</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Creating Overlays</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Create 2D overlays to show the number of how many pins fall and to show if it is an strike or not.<br>I will leave this step on to You because it may vary from person to Person what he want to show on 2D overlays<br>To show the number of pin falls. you can use the variable $pinfall$ we created in Step 5.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/main-1024x768.png" alt="Step 11" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header1 cid-qUH3dXltsN" id="header1-6k">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 10</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Conclusion</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">Hurrah!! we just completed creating our first physics based game in Coppercube 3D engine. In this tutorial I have skipped a lot of details. but i have tried to cover all the major parts, and have also provided a link to a the ccb file which may clear more doubts.
+<br>CCB file doesn't contain the complete level. it covers all the major part. e.g. bowling a ball, score and javascript used in this tutorial.</p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qUH3dZwjFN" id="header1-6l">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">TroubleShooting</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">&nbsp;If you have any issue and problems regarding this tutorial, just ask me it in the Comments section.</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7"></p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qUH3e1vPWg" id="header1-6m">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Links</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">CCB Template</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">
+                    Here is the url to download CCB template of this tutorial<br><strong><a href="https://drive.google.com/file/d/1Oe2JezQ6YPqVgNnp1WJifNKmNlmYJ5dG/view?usp=sharing" target="_blank"><b>CCB Template</b></a><a href="https://drive.google.com/file/d/1I3CcmrEQciKVXAXPqmX8idkVtsOQx0so/view?usp=sharing" target="_blank"></a></strong></p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section__comments" id="facebook-comments-block-6n" data-rv-view="323" style="background-color: rgb(35, 35, 35); padding-top: 0rem; padding-bottom: 0rem;">
+         
+    <div class="mbr-section__container mbr-section__container--isolated addons-container">
+        <div class="addons-row">
+            
+            <div class="addons-container-inner"><div class="googlePlaceholder" data-numposts=""><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src="assets/images/google-comments.jpg"></div></div>
+           
+        </div>
+    </div>
+</section>
+
+<section class="cid-qUH3e4d6KS" id="social-buttons3-6o">
+    
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-md-8 align-center">
+                <h2 class="pb-3 mbr-section-title mbr-fonts-style display-2">
+                    SHARE THIS TUTORIAL!
+                </h2>
+                <div>
+                    <div class="mbr-social-likes">
+                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
+                            <i class="socicon socicon-facebook"></i>
+                        </span>
+                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
+                            <i class="socicon socicon-twitter"></i>
+                        </span>
+                        <span class="btn btn-social plusone socicon-bg-googleplus mx-2" title="Share link on Google+">
+                            <i class="socicon socicon-googleplus"></i>
+                        </span>
+                        
+                        
+                        <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
+                            <i class="socicon socicon-pinterest"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="htmlblock-block-6p" data-rv-view="328" style="background-color: rgb(35, 35, 35);">
+	<style>.block {padding-bottom:0px; padding-top:0px;}</style>		
+            
+
+    <div class="mbr-section__container mbr-section__container--isolated container">
+        <div class="row block">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__left col-sm-8">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                            <div class="mbr-header__text tiny"></div>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><div class="tiny"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9463791826029624",
+    enable_page_level_ads: true
+  });
+</script></div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	
+	
+</section>
+
+<section class="cid-r0r54P6R2X" id="footer1-8v">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row content text-white">
+            <div class="col-12 col-md-3">
+                <div class="media-wrap">
+                    <a href="https://neophyte.cf">
+                        <img src="assets/images/logo2-192x192.png" alt="Neophyte" title="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Address
+                </h5>
+                <p class="mbr-text">Jaipur, RJ 302016</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Contacts
+                </h5>
+                <p class="mbr-text"><a href="contact_us.html#form1-3n">Contact us</a><br>beingneophyte@gmail.com<a href="contact_us.html#form1-3n"><br></a><br><br></p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Links
+                </h5>
+                <p class="mbr-text">&nbsp;<a href="https://ambiera.com" target="_blank">Ambiera&nbsp;</a><br></p>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="media-container-row mbr-white">
+                <div class="col-sm-6 copyright">
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        © Copyright 2018 Neophyte - All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
+  <script src="assets/facebook-plugin/facebook-script.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/sociallikes/social-likes.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>

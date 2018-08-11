@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.8.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.8.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo2-128x128-2.png" type="image/x-icon">
+  <meta name="description" content="Animating a 3d model in blender using the riggify and makewalk addon.">
+  <title>Animating using riggify and makewalk in blender</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="menu cid-qPNjM6nDrs" once="menu" id="menu1-m">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    
+                         <img src="assets/images/logo2-122x122.png" alt="Neophyte" title="" style="height: 3.8rem;">
+                    
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://neophyte.cf">Neophyte</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="index.html">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="tutorials.html"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn"></span>
+                        Tutorials</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="assetsdwnld.html"><span class="mbri-shopping-bag mbr-iconfont mbr-iconfont-btn"></span>Assets</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="articals.html"><span class="mbri-edit2 mbr-iconfont mbr-iconfont-btn"></span>Articles</a></li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobiri.se/m">web design templates</a></section><section class="mbr-section content5 cid-qPVP1oBrhS mbr-parallax-background" id="content5-2v">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Animating A Model In Blender Using Riggify And MakeWAlk</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">When messing up with Game Development people would usually
+ stuck on getting animations for their models. This tutorial completely focus on animating 3D model easily without stressing your nerves.</h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPz8Lp6T5" id="header4-r">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 1</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Importing The Base Model</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Open a new file and import the base model (File &gt; Import). You can use any other biped model as well. With the model selected, press Alt+G to clear its location, so that it's placed at the center. Make sure the center of the model (orange dot) is at the bottom of the mesh. If not, Press TAB to get into edit mode and select all vertices with the A key and then Press G and move the vertices up, so that the center point is at the base of the mesh. Press TAB to get out of edit mode.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/01-640x575.jpg" alt="Step 1" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPAtbXbi1" id="header4-u">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 2</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Enable Riggify Addon</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Next we will enable the Rigify add-on. In the File menu select User Preferences.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/02-640x452.jpg" alt="Step 2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPANYautg" id="header4-v">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Select the Add-on Tab and in the search box type Rigify and check the
+tick box to enable it. You may press the "Save as default" button, so that Blender remembers the setting. You can now close the User Preferences Window.&nbsp;<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/02b-640x452.jpg" alt="Step 2.2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPBooL42w" id="header4-w">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 3</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Adding Armature</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Make sure the 3D cursor is at the center point (bottom) of the mesh. If not, then select the object and press Shift+C and then select cursor to selected. Press Shift+A and select Armature, and now you will notice that there is a new item called Human Meta-Rig. Click on it and you will have a Human Rig.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/03-640x452.jpg" alt="Step 3" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPBMrmZW5" id="header4-x">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/01-640x575.jpg" alt="Step 3.2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPCaUJrcE" id="header4-y">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 4</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Enabling X-Ray</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">With the Human Rig selected, go to the Armature Properties and in the Display Panel, check X-Ray. This will enable us to see the armature through the mesh.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/04-640x640.jpg" alt="Step 4" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPCDYJPLa" id="header4-z">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 5</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Scaling and Rotating</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">With the Meta-Rig selected, press TAB to enter into edit mode. Scale the rig to match the mesh. Press . (period) to make the 3D cursor the pivot point for rotation and scale, and then Scale the bones. Press , (comma) to make the Median Point the center of rotations / scale.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/05-640x588.jpg" alt="Step 5" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPCZWqVB3" id="header4-10">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 6</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Enabling X-Axis Mirror</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Press T to bring out the Tool Shelf and in the Armature Options, check "X axis mirror". This way any editing done on one side will be mirrored to the other.&nbsp;<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/06-640x588.jpg" alt="Step 6" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPDh7HXdt" id="header4-11">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 7</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Matching Armature To Model</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Select and move the bone tips to match the mesh.&nbsp;<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/07a-640x588.jpg" alt="Step 7" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPDOaWC9g" id="header4-12">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Check from the Top view as well.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/07b-640x519.jpg" alt="Step 7.2" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPEfjF2eB" id="header4-13">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Adjust the leg bones.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/07c-640x490.jpg" alt="Step 7.3" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-qPPEFmscvK" id="header4-14">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Match the bones from the side view. Make sure to keep the knee bone a bit bent forward, i.e. don't make the leg bones in a straight line. Once done, Save the file.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/07d-640x490.jpg" alt="Step 7.4" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header1 cid-qPVVElMgBM" id="header1-2y">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 8</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Skinning Mesh To Armature</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">
+                    Press TAB to get out of edit mode. Now we will skin the mesh to the Armature. Select the Mesh first, and then the metaRig and press Ctrl+P and select Automatic weight. The mesh is now skinned to the Armature Setup.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qPYvGWwSB1" id="header1-37">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 9</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Downloading Blender Tools For Makehuman</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">
+                    First of all download Blender tools for makehuman from the official makehuman site.<br><a href="http://www.makehuman.org/download.php" target="_blank"><strong>http://www.makehuman.org/download.php</strong></a><br>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qPYwcO56D6" id="header1-38">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 10</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Enabling Makewalk Addon</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">Next we will enable the Makewalk add-on. Open blender ,In the File menu select User Preferences.
+<br>Select the Add-on Tab and in the search box type Makewalk and check the
+<br>tick box to enable it. You may press the "Save as default" button, so that Blender remembers the setting. You can now close the User Preferences Window.
+<br>If you can't find makewalk by typing it in the search box then try to find makehuman tools in left pane of addons.Tick Makewalk there.</p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header4 cid-qPYwt8byUE" id="header4-39">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Step 11</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Getting The User Interface</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">The user &gt; interface of MakeWalk is located in under the Armature tab, and becomes visible when an armature is selected. It consists of six panels; the first one is open by default and the others are closed.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/makewalk-7-494x312.png" alt="Step 11" title="" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header1 cid-qPYwW6kjkH" id="header1-3a">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 12</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Loading Mocap File</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">Select the rigged armature and Click on load and retarget.
+<br>Select bvh mocap file.
+<br>It will load animations to the rigged armature click on animation play or press alt+A &nbsp;to<br>Watch your character moving.<br><br></p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qPYxM3cumC" id="header1-3b">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Step 13</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Exporting Animated Mesh</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">Export your model to your desired format. I personally suggest to export it to .ms3d format for CopperCube 3D. You can export it to any Format supported<br>by your Game Engine.</p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qPYytphZnW" id="header1-3c">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">TroubleShooting</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">&nbsp;It may be possible that when you click on Load and retarget option.
+<div>Blender will show you an error asking you to resolve rotation and location of your armature.</div></h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">To resolve this issue, simply select your armature and press ctrl+A tick rotation,scale and location option.
+<br>Now try again to load and retarget bvh mocap file..</p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header1 cid-qPYyMkb8k5" id="header1-3d">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Links</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">Thousands Of Free BVH</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">
+                    Here is the url to download thousand of free bvh mocap files.<br><a href="https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/cmu-bvh-conversion" target="_blank"><strong>https://sites.google.com/a/cgspeed.com/cgspeed/motion-capture/cmu-bvh-conversion</strong></a><br>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section__comments" id="facebook-comments-block-3e" data-rv-view="106" style="background-color: rgb(35, 35, 35); padding-top: 0rem; padding-bottom: 0rem;">
+         
+    <div class="mbr-section__container mbr-section__container--isolated addons-container">
+        <div class="addons-row">
+            
+            <div class="addons-container-inner"><div class="googlePlaceholder" data-numposts=""><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src="assets/images/google-comments.jpg"></div></div>
+           
+        </div>
+    </div>
+</section>
+
+<section class="cid-qPYA3Tvvrw" id="social-buttons3-3f">
+    
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-md-8 align-center">
+                <h2 class="pb-3 mbr-section-title mbr-fonts-style display-2">
+                    SHARE THIS TUTORIAL!
+                </h2>
+                <div>
+                    <div class="mbr-social-likes">
+                        <span class="btn btn-social socicon-bg-facebook facebook mx-2" title="Share link on Facebook">
+                            <i class="socicon socicon-facebook"></i>
+                        </span>
+                        <span class="btn btn-social twitter socicon-bg-twitter mx-2" title="Share link on Twitter">
+                            <i class="socicon socicon-twitter"></i>
+                        </span>
+                        <span class="btn btn-social plusone socicon-bg-googleplus mx-2" title="Share link on Google+">
+                            <i class="socicon socicon-googleplus"></i>
+                        </span>
+                        
+                        
+                        <span class="btn btn-social pinterest socicon-bg-pinterest mx-2" title="Share link on Pinterest">
+                            <i class="socicon socicon-pinterest"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="htmlblock-block-46" data-rv-view="111" style="background-color: rgb(35, 35, 35);">
+	<style>.block {padding-bottom:0px; padding-top:0px;}</style>		
+            
+
+    <div class="mbr-section__container mbr-section__container--isolated container">
+        <div class="row block">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__left col-sm-8">
+                    <div class="mbr-section__container mbr-section__container--middle">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                            <div class="mbr-header__text tiny"></div>
+                        </div>
+                    </div>
+                    <div class="mbr-section__container">
+                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><div class="tiny"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9463791826029624",
+    enable_page_level_ads: true
+  });
+</script></div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	
+	
+</section>
+
+<section class="cid-r0r4YrKsbF" id="footer1-8t">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row content text-white">
+            <div class="col-12 col-md-3">
+                <div class="media-wrap">
+                    <a href="https://neophyte.cf">
+                        <img src="assets/images/logo2-192x192.png" alt="Neophyte" title="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Address
+                </h5>
+                <p class="mbr-text">Jaipur, RJ 302016</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Contacts
+                </h5>
+                <p class="mbr-text"><a href="contact_us.html#form1-3n">Contact us</a><br>beingneophyte@gmail.com<a href="contact_us.html#form1-3n"><br></a><br><br></p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Links
+                </h5>
+                <p class="mbr-text">&nbsp;<a href="https://ambiera.com" target="_blank">Ambiera&nbsp;</a><br></p>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="media-container-row mbr-white">
+                <div class="col-sm-6 copyright">
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        © Copyright 2018 Neophyte - All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+  <script src="https://apis.google.com/js/plusone.js"></script>
+  <script src="assets/facebook-plugin/facebook-script.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/sociallikes/social-likes.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>
