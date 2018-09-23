@@ -40,7 +40,7 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo2-128x128-2.png",
     "noImageResize": "",
-    "cookiesAlert": "",
+    "cookiesAlert": "We use cookies to give you the best site experience. .",
     "siteUrl": "https://neophyte.cf",
     "google-analytics": "",
     "html_before": "",
@@ -50,7 +50,8 @@
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
-    "siteFonts": []
+    "siteFonts": [],
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
@@ -13658,7 +13659,7 @@
     "Sunnyland.html": {
       "settings": {
         "meta_descr": "Sunnland Forest complete 2D level.",
-        "title": "Sunnyland",
+        "title": "Sunnyland Forest",
         "order": 9
       },
       "components": [
