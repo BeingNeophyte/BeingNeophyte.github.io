@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Neophyte.CF",
-    "currentPage": "Behavior_Console_Cheats.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 427,
     "versionPublish": "4.8.1",
@@ -43,7 +43,7 @@
     "cookiesAlert": "We use cookies to give you the best site experience.<a></a>",
     "siteUrl": "https://neophyte.cf",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-126311622-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-126311622-1');\r\n</script>\r\n",
-    "html_before": "",
+    "html_before": "<meta name=\"google-site-verification\" content=\"9qmcLXu_Hsm4k0xHMQADPuDapfJmcRFd1uZRar8GUwU\" />",
     "headbody": "",
     "botbody": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
