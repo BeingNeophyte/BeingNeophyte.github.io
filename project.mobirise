@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Neophyte.CF",
-    "currentPage": "assets.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 427,
     "versionPublish": "4.8.1",
@@ -596,37 +596,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "blockTitle": "",
-            "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
-            "extEdit": false,
-            "paddingTop": 20,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#232323",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "blockTitle": "",
-          "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
-          "alias": "htmlblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "htmlblock-block",
-          "_anchor": "htmlblock-block-3w",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          }
         },
         {
           "_styles": {
