@@ -39,9 +39,6 @@
 		<loc>https://neophyte.cf/404.html</loc>
 	</url>
 	<url>
-		<loc>https://neophyte.cf/S&L.html</loc>
-	</url>
-	<url>
 		<loc>https://neophyte.cf/snake_game.html</loc>
 	</url>
 	<url>
@@ -76,5 +73,8 @@
 	</url>
 	<url>
 		<loc>https://neophyte.cf/assets.html</loc>
+	</url>
+	<url>
+		<loc>https://neophyte.cf/Snake_and_Ladder.html</loc>
 	</url>
 </urlset>
