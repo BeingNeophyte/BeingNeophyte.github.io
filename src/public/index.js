@@ -2,8 +2,8 @@ $(document).ready(function(){
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher('APP_SECRET', {
-        cluster: 'eu',
+    var pusher = new Pusher('48dea147161a3f599d6d', {
+        cluster: 'ap2',
         encrypted: false
     });
 
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $("#message").val("");
 
         //send message
-        $.post( "http://localhost:5000/message", { message } );
+        $.post( "https://neophyte.cf:5000/message", { message } );
     });
 
     function onMessageAdded(data) {
