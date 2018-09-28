@@ -7,7 +7,7 @@ $(document).ready(function(){
         encrypted: false
     });
 
-    var channel = pusher.subscribe("Cheetah Chug");
+    var channel = pusher.subscribe("my-channel");
     channel.bind('message-added', onMessageAdded);
 
     $('#btn-chat').click(function(){
