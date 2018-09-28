@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 var pusher = new Pusher({ appId: '610433', key: '48dea147161a3f599d6d', secret: '62f6664d19664773e8fc', cluster: 'ap2' });
 
-app.post('/message', function(req, res) {
+app.post('message', function(req, res) {
   var message = req.body.message;
   pusher.trigger( 'public-chat', 'message-added', { message: message });
   res.sendStatus(200);
