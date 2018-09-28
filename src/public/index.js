@@ -2,20 +2,20 @@ $(document).ready(function(){
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher('ccd964ce00d1d6c1430e', {
-        cluster: 'ap2',
+    var pusher = new Pusher('APP_SECRET', {
+        cluster: 'eu',
         encrypted: false
     });
 
-    var channel = pusher.subscribe('my-channel');
-    channel.bind('my-event', onMessageAdded);
+    var channel = pusher.subscribe('public-chat');
+    channel.bind('message-added', onMessageAdded);
 
     $('#btn-chat').click(function(){
         const message = $("#message").val();
         $("#message").val("");
 
         //send message
-        $.post( "https://neophyte.cf/src/message", { message } );
+        $.post( "http://localhost:5000/message", { message } );
     });
 
     function onMessageAdded(data) {
