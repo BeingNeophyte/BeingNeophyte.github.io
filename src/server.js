@@ -6,7 +6,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-var pusher = new Pusher({ appId: APP_ID, key: APP_KEY, secret:  APP_SECRET, cluster: eu });
+var pusher = new Pusher({ appId: '610429', key: '79530d022fb171a3424f', secret: 'ccd964ce00d1d6c1430e', cluster: 'ap2',encrypted: true });
 
 app.post('/message', function(req, res) {
   var message = req.body.message;
@@ -15,10 +15,10 @@ app.post('/message', function(req, res) {
 });
 
 app.get('/',function(req,res){      
-     res.sendFile('/public/index.html', {root: __dirname });
+     res.sendFile('/public/index.html', {root: 'src' });
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('src' + '/public'));
 
 var port = process.env.PORT || 5000;
 app.listen(port, function () {
