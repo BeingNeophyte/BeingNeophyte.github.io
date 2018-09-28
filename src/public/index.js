@@ -15,7 +15,7 @@ $(document).ready(function(){
         $("#message").val("");
 
         //send message
-        $.post( "http://neophyte.cf/message", { message } );
+        $.post( "http://neophyte.cf:80/message", { message } );
     });
 
     function onMessageAdded(data) {
