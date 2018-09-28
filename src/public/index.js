@@ -15,7 +15,7 @@ $(document).ready(function(){
         $("#message").val("");
 
         //send message
-        $.post( "/message", { message } );
+        $.post( "message", { message } );
     });
 
     function onMessageAdded(data) {
