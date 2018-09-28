@@ -15,12 +15,12 @@ app.post('message', function(req, res) {
 });
 
 app.get('/',function(req,res){      
-     res.sendFile('/public/index.html', {root: __dirname });
+     res.sendFile('/public/index.html', {root: 'https://neophyte.cf/src' });
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('https://neophyte.cf/src' + '/public'));
 
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 5000;
 app.listen(port, function () {
   console.log(`app listening on port ${port}!`)
 });
