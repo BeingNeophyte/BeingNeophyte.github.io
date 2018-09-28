@@ -10,7 +10,7 @@
     "pusher",
     "realtime"
   ],
-  "author": "Just_in_case",
+  "author": "Peter Mbanugo",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",

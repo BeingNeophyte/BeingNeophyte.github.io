@@ -2,9 +2,9 @@ $(document).ready(function(){
     // Enable pusher logging - don't include this in production
     Pusher.logToConsole = true;
 
-    var pusher = new Pusher('79530d022fb171a3424f', {
-        cluster: 'ap2',
-        encrypted: true
+    var pusher = new Pusher('APP_SECRET', {
+        cluster: 'eu',
+        encrypted: false
     });
 
     var channel = pusher.subscribe('public-chat');
