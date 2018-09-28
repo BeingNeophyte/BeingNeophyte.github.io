@@ -6,11 +6,11 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-var pusher = new Pusher({ appId: "610429", key: "79530d022fb171a3424f", secret: "ccd964ce00d1d6c1430e", cluster: "ap2" });
+var pusher = new Pusher({ appId: "610429", key: '79530d022fb171a3424f', secret: 'ccd964ce00d1d6c1430e', cluster: 'ap2' });
 
 app.post('/message', function(req, res) {
   var message = req.body.message;
-  pusher.trigger( 'public-chat', 'message-added', { message: message });
+  pusher.trigger( 'my-channel', 'my-event', { message: message });
   res.sendStatus(200);
 });
 
