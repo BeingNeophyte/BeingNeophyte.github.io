@@ -10,7 +10,7 @@ var pusher = new Pusher({ appId: '610433', key: '48dea147161a3f599d6d', secret: 
 
 app.post('/message', function(req, res) {
   var message = req.body.message;
-  pusher.trigger( 'public-chat', 'message-added', { message: message });
+  pusher.trigger( 'public-chat', 'message-added', { 'message': message });
   res.sendStatus(200);
 });
 
