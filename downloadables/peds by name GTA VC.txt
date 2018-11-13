@@ -1,0 +1,1128 @@
+This is a list of the Pedestrian textures, In Game characters (IG) and Cutscreen characters (CS) of Vice City!
+
+ 
+
+Beginners should have a look at this before changing Ped textures!
+
+ 
+
+The .dff file= The Model of the Character.
+
+ 
+
+The .txd file= The texture of that model.
+
+ 
+
+Note:- .dff file characters might have same names , so you can use this list for models too.
+
+ 
+
+
+ 
+
+________________________________________________________________
+
+ 
+
+PEDS: The Pedestrians that walk Vice City.
+
+ 
+
+wmybe.txd - White Male Young Beach
+
+ 
+
+BFOBE.txd - Black Female Old Bikini
+
+ 
+
+bfori.txd - Black Female Old Red Suit
+
+ 
+
+bfost.txd - Black Female Old Street
+
+ 
+
+bfotr.txd - Black Female Old Street Trash
+
+ 
+
+bfybe.txd - Black Female Young Bikini
+
+ 
+
+BFYPR.txd - Black Female Young Prostitute
+
+ 
+
+bfyri.txd - Black Female Young Rich (B&W dress)
+
+ 
+
+BFYST.txd - Black Female Young Sporty Type
+
+ 
+
+bga.txd - Bodyguard 1
+
+ 
+
+bgb.txd - Bodyguard 2
+
+ 
+
+bka.txd - Biker 1
+
+ 
+
+bkb.txd - Biker 2 (Cougar ped)
+
+ 
+
+BMOBE.txd - Black Male Old Beach with vest
+
+ 
+
+bmodk.txd - Black Male Old Dock Worker
+
+ 
+
+bmost.txd - Black Male Old Street
+
+ 
+
+bmotr.txd - Homeless Wobbly Black Male Old Drunk
+
+ 
+
+bmybb.txd - Black Male Young Tracksuit
+
+ 
+
+bmybe.txd - Black Male Young Beach in Shorts
+
+ 
+
+bmybu.txd - Black Male Young Checkered Jacket
+
+ 
+
+bmycr.txd - Black Male Young Leather Jacket
+
+ 
+
+bmypi.txd - Pimp with Maroon jumper
+
+ 
+
+bmyri.txd - Black Male Young with Pink Suit
+
+ 
+
+bmyst.txd - Black Male Young with Sporty Attire
+
+ 
+
+buddy.txd - Lance Vance
+
+ 
+
+burger.txd - Well Stacked Pizza Employee
+
+ 
+
+C_worker.txd - Diaz Henchman
+
+ 
+
+Cba.txd - Cuban 1 (with red circle top)
+
+ 
+
+Cbb.txd - Cuban 2 (with beige top / black hat)
+
+ 
+
+chef.txd - Chef
+
+ 
+
+Cla.txd - Columbian 1 (Diaz Guy 1)
+
+ 
+
+Clb.txd - Columbian 2 (Diaz Guy 2)
+
+ 
+
+Colonel.txd - Juan Garcia Cortez skin
+
+ 
+
+cop.txd - Cop
+
+ 
+
+courier.txd - Courier in Mall Shootout Mission
+
+ 
+
+diaz.txd - Ricardo Diaz skin
+
+ 
+
+fbi.txd - FBI
+
+ 
+
+fireman.txd - Fireman
+
+ 
+
+FSfa.txd - French Swat in Mall "Shootout" Mission
+
+ 
+
+Gda.txd - PIG guy 1
+
+ 
+
+Gdb.txd - PIG guy 2 (same txd as gda!)
+
+ 
+
+hfobe.txd - White Female Old Beach Green Bikini
+
+ 
+
+hfori.txd - White Female White Suit
+
+ 
+
+HFOST.txd - White Female Old Street Trash
+
+ 
+
+HFOTR.txd - White Female Old Street Trash (as above)
+
+ 
+
+hfybe.txd - White Female Young Beach Aqua Bikini
+
+ 
+
+HFYBU.txd - White Female Young Purple Striped Suit
+
+ 
+
+HFYCG.txd - White Female Vender on Ocean Beach (street)
+
+ 
+
+HFYMD.txd - White Female vender with Black dress
+
+ 
+
+HFYPR.txd - White Female Young Prostitute Red Top
+
+ 
+
+HFYPR.txd - White Female with Blue Suit
+
+ 
+
+HFYST.txd - White Female with a Green Vest/White T-Shirt
+
+ 
+
+hmobe.txd - White Male Old Beach (w hairy chest!)
+
+ 
+
+hmoca.txd - Taxi Driver with Red Shirt
+
+ 
+
+hmori.txd - White Male Old Black Suit (w Grey Hair & Beard)
+
+ 
+
+hmost.txd - White Male Old Navy Suit No Beard
+
+ 
+
+hmotr.txd - Homeless Wobbly White Male Old Drunk
+
+ 
+
+hmyap.txd - White Male Young Light Brown Jumpsuit
+
+ 
+
+hmybe.txd - White Male Young Beach with dark blue Shorts
+
+ 
+
+hmyri.txd - White Male with Beige T-shirt
+
+ 
+
+hmyst.txd - White Male with Leather Jacket Red T-shirt
+
+ 
+
+Hna.txd - Haitian 1 with Dragon T-shirt
+
+ 
+
+Hnb.txd - Haitian 2 with Relax T-shirt
+
+ 
+
+IGalscb.txd - In Game Alex Shrub in Lingerie
+
+ 
+
+IGbuddy.txd - In Game Lance Vance
+
+ 
+
+IGBudy2.txd - In Game Lance Vance Cop Uniform
+
+ 
+
+IGBudy3.txd - In Game Lance Vance Beaten Up
+
+ 
+
+IGCandy.txd - In Game Candy Suxxx
+
+ 
+
+IGColon.txd - In Game Colonel Cortez
+
+ 
+
+IGDiaz.txd - In Game Ricardo Diaz
+
+ 
+
+IGDick.txd - In Game Dick (Lovefist)
+
+ 
+
+IGGonz.txd - In Game Gonzalez
+
+ 
+
+IGHlary.txd - In Game Hilary
+
+ 
+
+IGHlry2.txd - In Game Hilary (Bank Mission)
+
+ 
+
+IGJezz.txd - In Game Jezz Torrent
+
+ 
+
+IGKen.txd - In Game Ken Rosenberg
+
+ 
+
+IGMerc.txd - In Game Mercedes
+
+ 
+
+IGMerc2.txd - In Game Mercedes (w purple dress)
+
+ 
+
+IGmike.txd - In Game Cam Jones
+
+ 
+
+IGMike2.txd - In Game Cam Jones (Bank Mission)
+
+ 
+
+IGPercy.txd - In Game Percy (Lovefist)
+
+ 
+
+IGPhil.txd - In Game Phil Cassidy
+
+ 
+
+IGphil2.txd - In Game Injured Phil
+
+ 
+
+IGPhil3.txd - In Game Phil (Bank Mission)
+
+ 
+
+IGSonny.txd - In Game Sonny Forelli
+
+ 
+
+jfoto.txd - Japanese Female Tourist
+
+ 
+
+jmoto.txd - Japanese Male Tourist
+
+ 
+
+jzgirla.txd - Black Female with Aqua Dress
+
+ 
+
+jzgirlb.txd - same as above
+
+ 
+
+Kentpaul.txd - Kent Paul
+
+ 
+
+lawyer.txd - Ken Rosenberg
+
+ 
+
+male01.txd - White Male with White T-shirt (gets off bus)
+
+ 
+
+Mba.txd - Mafia Guy 1 Light Blue Shirt
+
+ 
+
+Mba.txd - Mafia Guy 2 Hawaiian shirt
+
+ 
+
+medic.txd - Ambulance Driver/ Medic
+
+ 
+
+Pga.txd - Vercetti Guy 1:
+
+ 
+
+1) White Male with Blue Shirt Blonde Hair
+
+ 
+
+2) Navy Suit with Aqua Shirt & Cigarette
+
+ 
+
+Pgb.txd - Vercetti Guy 2:
+
+ 
+
+1) White Male Red Hair Hawaiian Shirt Sunglasses
+
+ 
+
+2) White Male Black Hair White Suit Blue Shirt
+
+ 
+
+psycho.txd - Psycho in Lovefist Missions
+
+ 
+
+S_keep.txd - Shopkeeper in every shop in Vice City
+
+ 
+
+sam.txd - Ammunation guy
+
+ 
+
+Sga.txd - Sharks Guy 1 White Male Red Shirt
+
+ 
+
+Sgb.txd - Sharks Guy 2 Black Male w Shark Symbol on Jacket
+
+ 
+
+Sgc.txd - Sharks Guy 3 Hispanic Male with Bandana
+
+ 
+
+spandxa.txd - Spandex Employee 1
+
+ 
+
+spandxb.txd - Spandex Employee 2
+
+ 
+
+Stripa.txd - Stripper 1 Cowgirl
+
+ 
+
+stripb.txd - Stripper 2 Black Female Pink Lingerie
+
+ 
+
+stripc.txd - Stripper 3 White Female Black Lace
+
+ 
+
+swat.txd - SWAT ped
+
+ 
+
+taxi_d.txd - Taxi Driver Red Shirt
+
+ 
+
+vice1.txd - Undercover Cop1 Beige Jumper
+
+ 
+
+vice2.txd - Undercover Cop2 Grey Suit
+
+ 
+
+vice3.txd - Undercover Cop3 Sport Attire with Beard
+
+ 
+
+vice4.txd - Undercover Cop4 Tracksuit
+
+ 
+
+vice5.txd - Undercover Cop5 Bald Striped Blue
+
+ 
+
+vice6.txd - Undercover Cop6 Brown Suit Red Hair
+
+ 
+
+Vice7.txd - Undercover Cop7 (Same as Vice1.txd)
+
+ 
+
+Vice8.txd - Undercover Cop8 (Same as Vice2.txd)
+
+ 
+
+wfobe.txd - White Female Old Beach Striped Orange Bikini
+
+ 
+
+wfogo.txd - White Female Old Golfer
+
+ 
+
+wfori.txd - White Female Old Rich Ped
+
+ 
+
+wfosh.txd - White Female Old Shopper(Gash Bags)
+
+ 
+
+wfost.txd - White Female Old with Green Cardigan
+
+ 
+
+wfotr.txd - White Female Old Trailer Trash Ped
+
+ 
+
+wfybe.txd - White Female Young Beach with Maroon Bikini
+
+ 
+
+wfybu.txd - White Female Young with Purple Suit
+
+ 
+
+wfycst.txd - White Female Young Vendor (same as HFYCG.txd)
+
+ 
+
+wfyg1.txd - White Female Girl with Skull Tattoo
+
+ 
+
+wfyg2.txd - Vietnamese Female Girl
+
+ 
+
+wfyjg.txd - Female Jogger
+
+ 
+
+WFYLG.txd - Female Lifeguard
+
+ 
+
+wfypr.txd - White Female Prostitute (Black Top)
+
+ 
+
+wfyri.txd - White Female Rich Pink Suit Blonde Hair
+
+ 
+
+wfysh.txd - White Female Young Shopper with Bags
+
+ 
+
+wfysk.txd - White Female Rollerskater
+
+ 
+
+wfyst.txd - White Female Young with Checkered Top
+
+ 
+
+wmobe.txd - White Male Old Beach with Floral Shorts
+
+ 
+
+wmobu.txd - White Male Old Businessman with Green Suit
+
+ 
+
+wmoca.txd - White Male Old Cab Driver Blue Shirt
+
+ 
+
+wmogo.txd - Male Old Golfer
+
+ 
+
+wmori.txd - White Male Old with Dark Blue Suit Grey Hair
+
+ 
+
+wmost.txd - White Male Old with Checkered Grey Suit
+
+ 
+
+wmotr.txd - White Male Old Trailer Trash
+
+ 
+
+army.txd - Army Soldier
+
+ 
+
+wmybu.txd - White Male Young with White Shirt Red Braces
+
+ 
+
+wmycr.txd - White Male Young Brown Leather Jacket
+
+ 
+
+wmycw.txd - Construction Worker with hard hat
+
+ 
+
+wmygo.txd - White Male Young Golfer
+
+ 
+
+wmyjg.txd - Male Jogger
+
+ 
+
+WMYLG.txd - Male Lifeguard
+
+ 
+
+wmypi.txd - White Male with Red Suit & Hat (Candy's Pimp)
+
+ 
+
+wmyri.txd - White Male with Green Suit & Sunglasses
+
+ 
+
+wmysk.txd - White Male Rollerskater
+
+ 
+
+wmyst.txd - White Male with Black Leather Jacket
+
+ 
+
+Apoulet.txd - Aunt Poulet
+
+ 
+
+bounca.txd - Bouncer
+
+ 
+
+cdrivra.txd - Cab Driver with Red Shirt
+
+ 
+
+cdrivrb.txd - Cab Driver with Blue Shirt
+
+ 
+
+cgona.txd - Colonel Cortez Man 1 White Male
+
+ 
+
+cgonb.txd - Colonel Cortez Man 2 Black Male
+
+ 
+
+cgonc.txd - Colonel Cortez Man 3 Hispanic Male
+
+ 
+
+cgoona.txd - Kent Paul
+
+ 
+
+cgoonb.txd - Ken Rosenberg
+
+ 
+
+chef.txd - Leo Teal (Chef at start of game)
+
+ 
+
+cmraman.txd - Cameraman in Film Studio Missions
+
+ 
+
+crewa.txd - White Male Dock Worker
+
+ 
+
+crewb.txd - Black Male Dock Worker
+
+ 
+
+dgoona.txd - Diaz Goon 1 in "The Party" Cutscreen
+
+ 
+
+dgoonb.txd - Diaz Goon 2 in "The Party" Cutscreen
+
+ 
+
+dgoonc.txd - Diaz Goon 2
+
+ 
+
+floozya.txd - White Female in some Cutscreen
+
+ 
+
+floozyb.txd - Black Female in some Cutscreen
+
+ 
+
+floozyc.txd - White Female 2 in some Cutscreen
+
+ 
+
+guesta.txd & guestb.txd - Cortez ?
+
+ 
+
+guestc.txd & guestd.txd - Rosenberg ?
+
+ 
+
+KgoonA.txd - Kent Paul ?
+
+ 
+
+KgoonB.txd - Cortez ?
+
+ 
+
+mgoona.txd - White Male Leather Jacket Black Skull T-shirt
+
+ 
+
+mporna.txd - Porn Actor in Film Studio Missions
+
+ 
+
+mserver.txd - same as mgoona.txd
+
+ 
+
+printra.txd - Print Works employee 1 Hispanic male
+
+ 
+
+printrb.txd - Print Works employee 2 Black male
+
+ 
+
+printrc.txd - Print Works employee 3 White male
+
+ 
+
+sfrenda.txd - Sonnys Friend Marcos Bistro Blonde Hair
+
+ 
+
+sfrendb.txd - Sonnys Friend Marcos Bistro Blue Shirt
+
+ 
+
+sgoona.txd - Harry (Friend killed at deal)
+
+ 
+
+sgoonb.txd - Lee (Friend killed at deal)
+
+ 
+
+shootra.txd - Shooter at shooting Range
+
+ 
+
+shootrb.txd - Shooter in The Shootist Cutscreen
+
+ 
+
+Tommy Vercetti:
+
+ 
+
+player.txd - Steet Outfit
+
+ 
+
+player2.txd - Raphael's Outfit
+
+ 
+
+player3.txd - Spandex Outfit
+
+ 
+
+player4.txd - Golf Outfit
+
+ 
+
+player5.txd - Cuban Outfit
+
+ 
+
+player6.txd - Cop Uniform
+
+ 
+
+player7.txd - "The Job" Outfit
+
+ 
+
+player8.txd - Casual Outfit
+
+ 
+
+player9.txd - Collars & Cuffs Outfit
+
+ 
+
+play10.txd - Black Tracksuit
+
+ 
+
+play11.txd - Wine Red Tracksuit
+
+ 
+
+play12.txd - Frankie T-shirt
+
+ 
+
+______________________________________________________________
+
+ 
+
+Cutscreen Characters:
+
+ 
+
+These are the textures that are shown in the Cutscreens of Missions.
+
+ 
+
+CSAlsb2.txd - Alex Shrub Suit
+
+ 
+
+CSAlscb.txd - Alex Shrub Lingerie
+
+ 
+
+CSAlscb2.txd - Alex Shrub Suit
+
+ 
+
+CSassA.txd - Assassin 1 at deal
+
+ 
+
+CSassB.txd - Assassin 2 at deal
+
+ 
+
+CSassC.txd - Assassin 3 at deal
+
+ 
+
+CSavery.txd - Avery Carrington
+
+ 
+
+CSbigm.txd - Mitch Baker
+
+ 
+
+CSBJ.txd - BJ Smith
+
+ 
+
+CSBuddy.txd - Lance Vance
+
+ 
+
+CScamj.txd - Cam Jones
+
+ 
+
+CSCandy.txd - Candy Suxxx
+
+ 
+
+CScgona.txd - Kent Paul ?
+
+ 
+
+CScgonb.txd - Ken Rosenberg ?
+
+ 
+
+CScgonc.txd - Rosenberg again ?
+
+ 
+
+CScolo.txd - Cortez ?
+
+ 
+
+CScougr.txd - Cortez again ?
+
+ 
+
+CSdeal.txd - Victor Vance
+
+ 
+
+CSdiaz.txd - Ricardo Diaz
+
+ 
+
+CSDick.txd - Dick Lovefist
+
+ 
+
+CSdirec.txd - Steve Scott
+
+ 
+
+CSdisp.txd - same as jzgirla.txd ?
+
+ 
+
+CSdlove.txd - Donald Love
+
+ 
+
+CSDoris.txd - Kaufman Cabs Woman
+
+ 
+
+CSdwayn.txd - Dwayne (Guy 1 at Boathouse)
+
+ 
+
+cservra.txd - Cortez's waitress A
+
+ 
+
+cservrb.txd - Cortez's waitress B (same as A)
+
+ 
+
+CSFiller.txd - French Secret Service ?
+
+ 
+
+CSganga.txd - Rosenberg ?
+
+ 
+
+CSgangb.txd - Cortez ?
+
+ 
+
+CSgangc.txd - Kent Paul ?
+
+ 
+
+CSgona.txd - Kent Paul again ?
+
+ 
+
+CSgonb.txd - Rosenberg ?
+
+ 
+
+CSgonc.txd - Rosenberg again?
+
+ 
+
+CSGonz.txd - Gonzalez
+
+ 
+
+CShlary.txd - 1) Avery ? 2) Hilary
+
+ 
+
+CSJetro.txd - Jethro (Guy 2 at Boathouse)
+
+ 
+
+CSJezz.txd - Jezz Torrent
+
+ 
+
+CSJuggz.txd - Porn Actress in "Recruitment Drive" Cutscreen
+
+ 
+
+CSKelly.txd - Earnest Kelly (Printworks Old Guy)
+
+ 
+
+CSken.txd - Ken Rosenberg
+
+ 
+
+CSkent.txd - Kent Paul
+
+ 
+
+CSLance.txd - Lance Vance
+
+ 
+
+CSMaude.txd - Cherry Popper lady
+
+ 
+
+CSMerc.txd - Mercedes
+
+ 
+
+CSmerc2.txd - Mercedes 2
+
+ 
+
+CSmike.txd - Cam Jones
+
+ 
+
+CSmitch.txd - Cortez ?
+
+ 
+
+CSpablo.txd - Guy 1 sitting in Cafe in Cuban Missions
+
+ 
+
+CSPapa.txd - Alberto Robina Umberto's "Papi"
+
+ 
+
+CSPepe.txd - Guy 2 sitting in Cafe in Cuban Missions
+
+ 
+
+CSPercy.txd - Percy Lovefist
+
+ 
+
+CSphil.txd - Phil Cassidy Normal
+
+ 
+
+CSrich.txd - Pastor Richards
+
+ 
+
+CSsonny.txd - Sonny Forelli
+
+ 
+
+CSumbto.txd - Umberto Robina
+
+ 
+
+CSzepp.txd - Rosenberg ?
+
+ 
+
+CSplay.txd - Tommy with Street Outfit in Cutscreen
+
+ 
+
+CSplay2.txd - Tommy with Raphael Suit in Cutscreen
+
+ 
+
+CSplay3.txd - Tommy with Spandex Outfit in Cutscreen
+
+ 
+
+CSplay4.txd - Tommy with Golf Outfit in Cutscreen
+
+ 
+
+CSplay5.txd - Tommy with Cuban Outfit in Cutscreen
+
+ 
+
+CSplay6.txd - Tommy with Cop Outfit in Cutscreen
+
+ 
+
+CSplay7.txd - Tommy with "The Job" Outfit in Cutscreen
+
+ 
+
+CSplay8.txd - Tommy with Casual Outfit in Cutscreen
+
+ 
+
+CSplay9.txd - Tommy with Collars & Cuffs Outfit in Cutscreen
