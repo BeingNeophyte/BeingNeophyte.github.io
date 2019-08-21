@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 464,
-    "versionPublish": "4.8.7",
+    "versionPublish": "4.10.7",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,18 @@
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on",
     "siteFonts": [],
-    "gdpr": ""
+    "gdpr": "",
+    "witsec-white-label": "on",
+    "customCookies": {
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "#879a9f",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "text": "We use cookies to give you the best experience. Read our <a href=''>cookie policy</a>."
+    },
+    "witsec-form-subject": "Neophyte.cf"
   },
   "pages": {
     "index.html": {
@@ -471,7 +482,7 @@
         },
         {
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Being a Neophyte</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Neophyte is a website developed to provide Tutorials, Assets and Source files of Coppercube Projects. If you want us to provide tutorials or example file regarding a specifc topic then Don't hesitate to use the contact us button below. <br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://paypal.me/Vazahat\" data-app-placeholder=\"Type Text\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>DONATE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"assets.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>ASSETS</a>  <a class=\"btn btn-md btn-white-outline\" href=\"tutorials.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>TUTORIALS</a> <a class=\"btn btn-md btn-white\" href=\"contact_us.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Being a Neophyte</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Neophyte is a website developed to provide tutorials, assets and source files of Coppercube projects. If you want us to provide tutorials or example files regarding a specifc topic then don't hesitate to use the contact us button below. <br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://paypal.me/Vazahat\" data-app-placeholder=\"Type Text\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>DONATE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"assets.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>ASSETS</a>  <a class=\"btn btn-md btn-white-outline\" href=\"tutorials.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>TUTORIALS</a> <a class=\"btn btn-md btn-white\" href=\"contact_us.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -679,6 +690,106 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r2n9MFEXJT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_cid": "f8m90vq30c",
+          "_anchor": "design-block-f8m90vq30c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            ".floating-bar": {
+              "position": "fixed",
+              "width": "60px",
+              "height": "60px",
+              "bottom": "40px",
+              "right": "40px",
+              "background-color": "@bgcolor",
+              "color": "@iconcolor",
+              "border-radius": "unit(@borderRadius, ~'%')",
+              "text-align": "center",
+              "& when (@shadow = true)": {
+                "box-shadow": "2px 2px 2px #999"
+              },
+              "& when (@transition = true)": {
+                "transition": "0.3s"
+              },
+              "z-index": "99999"
+            },
+            ".floating-bar:hover": {
+              "background-color": "@hovercolor"
+            },
+            ".floating-button": {
+              "color": "@iconcolor"
+            },
+            ".valign": {
+              "position": "relative",
+              "top": "50%",
+              "transform": "translateY(-50%)"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n    <mbr-parameters>\n       <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"color\" title=\"Icon Color\" name=\"iconcolor\" value=\"#ffffff\">\n       <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#149dcc\">\n       <input type=\"color\" title=\"Hover Color\" name=\"hovercolor\" value=\"#4db6da\">\n       <input type=\"range\" inline title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"50\">\n       <input type=\"checkbox\" title=\"Shadow\" name=\"shadow\" checked>\n       <input type=\"checkbox\" title=\"Transition\" name=\"transition\" checked>\n       <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a href=\"contact_us.html\" class=\"floating-bar\">\n        <div class=\"valign\">\n            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-btn floating-button socicon-mail socicon\"></span>\n        </div>        \n    </a>\n \n    <div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the button. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_cid": "V11KjrmPWb",
+          "_anchor": "design-block-V11KjrmPWb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1997,6 +2108,67 @@
           "_params": {}
         },
         {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dh",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaSvsfSs",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
@@ -2654,6 +2826,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d1",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwa9oR4dL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -3288,6 +3521,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-cx",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzw9WyIIhu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -3831,6 +4125,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d0",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwa74GjSv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -4244,6 +4599,67 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-cz",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwa4eLEPM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
@@ -5576,6 +5992,67 @@
           "_params": {}
         },
         {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-di",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaWiETjg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
@@ -6730,6 +7207,67 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r4selbFzrb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dj",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaZ8p3LI",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -7939,6 +8477,67 @@
           "_params": {}
         },
         {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dk",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwb2gpMcE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
@@ -8607,6 +9206,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d9",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwau2GLhe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -9247,6 +9907,67 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r0r4EOIIIJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-da",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwawsRyDl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -9895,6 +10616,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-db",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwazPc9oJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -10453,6 +11235,67 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r0r4zVBOPQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-cy",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzw9ZZawoA",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -11096,6 +11939,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-de",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaGZZQCU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -11735,6 +12639,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dg",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaO9YYwV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -12274,6 +13239,67 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r4hmSgYAn1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d2",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwabFwNUk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -12913,6 +13939,67 @@
           "_sourceTheme": "mobirise4",
           "_cid": "r4h583wdsg",
           "_anchor": "footer1-9l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-df",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaJw9Vya",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -13557,6 +14644,67 @@
           "_sourceTheme": "mobirise4",
           "_cid": "r4hg2KWaEt",
           "_anchor": "footer1-9p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dc",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaCn7gNh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -14642,6 +15790,67 @@
           "_params": {}
         },
         {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dl",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwb5tnQrR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "blockTitle": "",
             "HTMLCode": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-9463791826029624\",\n    enable_page_level_ads: true\n  });\n</script>",
@@ -15285,6 +16494,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d4",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwai0K3Mg",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -15895,6 +17165,67 @@
           "_sourceTheme": "mobirise4",
           "_cid": "r4xHnVuDHM",
           "_anchor": "footer1-bk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d5",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwakmev3A",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -16513,6 +17844,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d6",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwamuiPfT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -17127,6 +18519,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d8",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwarGkC06",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -17737,6 +19190,67 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r4s0Sub8F1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d3",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwafPV7ax",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -18575,6 +20089,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-cw",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzw9TMLPQ7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -19219,6 +20794,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dd",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwaEEj689",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -19829,6 +21465,67 @@
           "_sourceTheme": "mobirise4",
           "_cid": "r94Oq2HVep",
           "_anchor": "footer1-bz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-d7",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwapheiuL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -21105,6 +22802,67 @@
           "_sourceTheme": "mobirise4",
           "_cid": "r94UZbeG0h",
           "_anchor": "footer1-co",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            ".witsec-socialbar": {
+              "position": "fixed",
+              "top": "50%",
+              "-webkit-transform": "translateY(-50%)",
+              "-ms-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "99999"
+            },
+            ".witsec-socialbar a": {
+              "display": "block",
+              "text-align": "center",
+              "transition": "all 0.3s ease",
+              "color": "@iconColor",
+              "padding": "unit(@padding, ~'rem')",
+              "font-size": "unit(@fontSize, ~'rem')",
+              "border-radius": "unit(@borderRadius, ~'%')"
+            },
+            ".witsec-socialbar .icon": {
+              "margin": "unit(@iconSpacing, ~'rem')"
+            },
+            ".witsec-socialbar a:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".witsec-socialbar .icon1": {
+              "background": "@bgColorIcon1",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon2": {
+              "background": "@bgColorIcon2",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon3": {
+              "background": "@bgColorIcon3",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon4": {
+              "background": "@bgColorIcon4",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon5": {
+              "background": "@bgColorIcon5",
+              "color": "@iconColor"
+            },
+            ".witsec-socialbar .icon6": {
+              "background": "@bgColorIcon6",
+              "color": "@iconColor"
+            }
+          },
+          "_customHTML": "<section>\n\n<mbr-parameters>\n<!-- Block parameters controls (Blue \"Gear\" panel) -->\n<input type=\"range\" inline=\"\" title=\"Social Icons\" name=\"socialIcons\" min=\"0\" max=\"6\" step=\"1\" value=\"3\">\n<input type=\"range\" inline=\"\" title=\"Border Radius\" name=\"borderRadius\" min=\"0\" max=\"50\" step=\"10\" value=\"0\">\n<input type=\"range\" inline=\"\" title=\"Padding\" name=\"padding\" min=\"0\" max=\"2\" step=\"0.1\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Font Size\" name=\"fontSize\" min=\"1\" max=\"4\" step=\"0.2\" value=\"1\">\n<input type=\"range\" inline=\"\" title=\"Icon Spacing\" name=\"iconSpacing\" min=\"0\" max=\"2\" step=\"0.1\" value=\"0\">\n<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\">\n<input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#000000\">\n<input type=\"color\" title=\"Background Color Icon 1\" name=\"bgColorIcon1\" value=\"#3b5998\">\n<input type=\"color\" title=\"Background Color Icon 2\" name=\"bgColorIcon2\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 3\" name=\"bgColorIcon3\" value=\"#232323\">\n<input type=\"color\" title=\"Background Color Icon 4\" name=\"bgColorIcon4\" value=\"#007bb5\">\n<input type=\"color\" title=\"Background Color Icon 5\" name=\"bgColorIcon5\" value=\"#bb0000\">\n<input type=\"color\" title=\"Background Color Icon 6\" name=\"bgColorIcon6\" value=\"#232323\">\n<!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"witsec-socialbar\">\n<a href=\"https://facebook.com/Neophyte.cf/\" class=\"icon icon1\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-facebook socicon\"></span></a>\n<a href=\"https://www.youtube.com/channel/UC_yfoGEKkmY63tnyy6hR7ZQ/\" mbr-if=\"socialIcons > 1\" class=\"icon icon2\" target=\"_blank\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-youtube socicon\"></span></a>\n<a href=\"mailto:beingneophyte@gmail.com\" mbr-if=\"socialIcons > 2\" class=\"icon icon3\"><span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-btn socicon-mail socicon\"></span></a>\n<a href=\"https://www.linkedin.com\" mbr-if=\"socialIcons > 3\" class=\"icon icon4\"><span mbr-icon=\"\" class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"https://www.youtube.com\" mbr-if=\"socialIcons > 4\" class=\"icon icon5\"><span mbr-icon=\"\" class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>\n<a href=\"mailto:info@yourdomain.com\" mbr-if=\"socialIcons > 5\" class=\"icon icon6\"><span mbr-icon=\"\" class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a>\n</div>\n\n<div class=\"remove-on-publish\" style=\"padding:1rem\">Click the \"gear\" icon to change the layout of the social bar. This text will be removed on preview/publish.</div>\n\n</section>",
+          "_anchor": "design-block-dm",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rzwb8KHP3J",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
