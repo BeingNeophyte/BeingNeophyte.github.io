@@ -66,9 +66,6 @@
 		<loc>https://neophyte.cf/Behavior_Text_Animation.html</loc>
 	</url>
 	<url>
-		<loc>https://neophyte.cf/Action_Read_Specific_line.html</loc>
-	</url>
-	<url>
 		<loc>https://neophyte.cf/Plugin_Keyboard_Shortcuts.html</loc>
 	</url>
 	<url>
@@ -85,5 +82,14 @@
 	</url>
 	<url>
 		<loc>https://neophyte.cf/ddljump.html</loc>
+	</url>
+	<url>
+		<loc>https://neophyte.cf/helixjump.html</loc>
+	</url>
+	<url>
+		<loc>https://neophyte.cf/Action_rotate_with_mouse.html</loc>
+	</url>
+	<url>
+		<loc>https://neophyte.cf/Action_read_specific_line.html</loc>
 	</url>
 </urlset>
