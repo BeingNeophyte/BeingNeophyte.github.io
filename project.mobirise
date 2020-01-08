@@ -39,9 +39,9 @@
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo2-128x128-2.png",
-    "noImageResize": "",
+    "noImageResize": true,
     "cookiesAlert": {
-      "customDialogSelector": false,
+      "customDialogSelector": true,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
       "colorButton": "",
@@ -49,7 +49,7 @@
       "underlineLink": true,
       "opacity": "99",
       "opacityOverlay": "80",
-      "text": "[object Object]",
+      "text": "This sIte uses cookies to provide you a better experience. Click agree button below.",
       "textButton": "Agree"
     },
     "siteUrl": "https://neophyte.cf",
@@ -68,9 +68,21 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "gdpr": "",
     "witsec-white-label": "on",
-    "witsec-form-subject": "Neophyte.cf"
+    "witsec-form-subject": "Neophyte.cf",
+    "witsec-mailform-to": "angelonghost@gmail.com",
+    "witsec-mailform-from": "angelonghost@gmail.com",
+    "witsec-mailform-from-them": false,
+    "witsec-mailform-from-name": "Your Name",
+    "witsec-mailform-from-name-them": false,
+    "witsec-mailform-template": "Hi,\n\nYou have received a new message from your website.\n\n{formdata}\n\nDate: {date}\nRemote IP: {ip}\n\nHave a nice day.",
+    "witsec-mailform-recaptcha": false,
+    "witsec-mailform-recaptcha-sitekey": "",
+    "witsec-mailform-recaptcha-secretkey": "",
+    "witsec-mailform-recaptcha-score": "0.5",
+    "witsec-language": "en",
+    "witsec-mailform": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
