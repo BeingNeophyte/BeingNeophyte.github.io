@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Neophyte.CF",
-    "currentPage": "index.html",
+    "currentPage": "assets.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 477,
     "versionPublish": "4.11.6",
@@ -89,8 +89,8 @@
       "settings": {
         "main": true,
         "title": "Neophyte",
-        "meta_descr": "",
-        "header_custom": "",
+        "meta_descr": "Neophyte is a website developed to provide tutorials, assets and source files of Coppercube projects. If you want us to provide tutorials or example files regarding a specifc topic then don't hesitate to use the contact us button below. ",
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "footer_custom": "",
         "html_before": ""
       },
@@ -502,7 +502,7 @@
         },
         {
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Being a Neophyte</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Neophyte is a website developed to provide tutorials, assets and source files of Coppercube projects. If you want us to provide tutorials or example files regarding a specifc topic then don't hesitate to use the contact us button below. <br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://paypal.me/Vazahat\" data-app-placeholder=\"Type Text\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\"></span>DONATE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"assets.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>ASSETS</a>  <a class=\"btn btn-md btn-white-outline\" href=\"tutorials.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>TUTORIALS</a> <a class=\"btn btn-md btn-white\" href=\"contact_us.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Being a Neophyte</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Neophyte is a website developed to provide tutorials, assets and source files of Coppercube projects. If you want us to provide tutorials or example files regarding a specifc topic then don't hesitate to use the contact us button below. <br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"assets.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-shopping-bag mbr-iconfont mbr-iconfont-btn\"></span>ASSETS</a>  <a class=\"btn btn-md btn-white-outline\" href=\"tutorials.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>TUTORIALS</a> <a class=\"btn btn-md btn-white\" href=\"contact_us.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -520,109 +520,6 @@
           },
           "_cid": "qPNjM9v7bi",
           "_anchor": "header2-f",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "font-weight": "300"
-            },
-            ".number-wrap": {
-              "color": "@labelsColor",
-              "border-color": "rgba(255, 255, 255, 0.15)",
-              "position": "relative",
-              "display": "inline-block",
-              "text-align": "center",
-              "padding": "5px 10px 13px 10px",
-              "margin": "0",
-              "min-width": "118px",
-              "border-radius": "2px",
-              "max-width": "100%"
-            },
-            ".number": {
-              "font-style": "normal",
-              "font-weight": "700",
-              "text-transform": "none",
-              "letter-spacing": "-2px",
-              "font-size": "55px",
-              "word-spacing": "0",
-              "line-height": "1.3",
-              "color": "@numbersColor"
-            },
-            ".period": {
-              "display": "block",
-              "padding-top": "2px",
-              "border-top": "1px solid rgba(0, 0, 0, 0.1)"
-            },
-            ".dot": {
-              "position": "absolute",
-              "top": "-10px",
-              "right": "-1em",
-              "width": "1em",
-              "display": "block",
-              "font-size": "55px",
-              "height": "83%",
-              "overflow": "hidden",
-              "font-style": "normal",
-              "font-weight": "700",
-              "line-height": "89.65px",
-              "text-transform": "none",
-              "letter-spacing": "0",
-              "word-spacing": "0",
-              "color": "@numbersColor"
-            },
-            ".countdown-cont": {
-              "background": "linear-gradient(45deg, @panelColor, @panelColor2)",
-              "max-width": "700px",
-              "border-radius": "3px",
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".dot": {
-                "display": "none"
-              }
-            },
-            "@media (max-width: 543px)": {
-              ".number-wrap": {
-                "margin-bottom": "15px"
-              }
-            },
-            "@media (max-width: 550px)": {
-              ".col-xs-3": {
-                "padding-left": "0",
-                "padding-right": "0"
-              },
-              ".number-wrap": {
-                "min-width": "auto"
-              }
-            },
-            "@media (max-width: 440px)": {
-              ".number, .dot": {
-                "font-size": "40px"
-              }
-            },
-            "@media (max-width: 380px)": {
-              ".period": {
-                "font-size": "0.8rem"
-              }
-            }
-          },
-          "_name": "countdown2",
-          "_customHTML": "<section class=\"countdown2\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Event Name\" name=\"showEvent\" checked>\n        <input type=\"checkbox\" title=\"Show Event Date\" name=\"showDate\" checked>\n        <input type=\"color\" title=\"Panel Color1\" name=\"panelColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Panel Color2\" name=\"panelColor2\" value=\"#c8ceaf\">\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2018/10/1\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Days\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Hours\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Seconds\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Next Tutorial</h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Here is a Countdown for the next upcoming tutorial,asset,source or article.\n        </h3>\n    </div>\n    <div class=\"container pt-5 mt-2\">\n        <div class=\" countdown-cont align-center p-4\">\n            <div class=\"event-name align-left mbr-white \" mbr-if=\"showEvent\">\n                <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">We will update the countdown soon...</h4>\n            </div>\n            <div class=\"countdown align-center py-2\" data-due-date=\"{{countdown}}\">\n            </div>\n            <div title=\"{{daysCountdown}}\" class=\"daysCountdown\"></div>\n            <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown\"></div>\n            <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown\"></div>\n            <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown\"></div>\n            <div class=\"event-date align-left mbr-white\" mbr-if=\"showDate\">\n                <h5 class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\">29/01/2020&nbsp;</h5>\n            </div>\n        </div>\n\n        <div class=\"media-container-row pt-5\" mbr-if=\"showButtons\">\n            <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qPVBG8OfFs",
-          "_anchor": "countdown2-2i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -819,7 +716,8 @@
       "settings": {
         "meta_descr": "Animating a 3d model in blender using the riggify and makewalk addon.",
         "title": "Animating using riggify and makewalk in blender",
-        "order": 25
+        "order": 25,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -2201,7 +2099,8 @@
       "settings": {
         "meta_descr": "Tutorials ",
         "title": "Tutorials",
-        "order": 2
+        "order": 2,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -2892,7 +2791,8 @@
       "settings": {
         "meta_descr": "Contact us",
         "title": "Contact Us",
-        "order": 5
+        "order": 5,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -3492,7 +3392,8 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "About us",
-        "order": 4
+        "order": 4,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -3965,7 +3866,8 @@
       "settings": {
         "meta_descr": "Creating a 2D Game \"Mario\" using coppercube 3D software.\n",
         "title": "2D Game Tutorial",
-        "order": 26
+        "order": 26,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -5364,7 +5266,8 @@
       "settings": {
         "meta_descr": "Creating an Android App \"Relax Melodies\" using coppercube 3D software.\n",
         "title": "Android app making with Coppercube",
-        "order": 27
+        "order": 27,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -6568,7 +6471,8 @@
       "settings": {
         "meta_descr": "How to create a simple bowling game using physics in Coppercube 3d.\n",
         "title": "How to use Physics in Coppercube",
-        "order": 28
+        "order": 28,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -7814,7 +7718,8 @@
       "settings": {
         "meta_descr": "Flappy Bird Coppercube clone.",
         "title": "Flappy Bird",
-        "order": 17
+        "order": 17,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -8510,7 +8415,8 @@
       "settings": {
         "meta_descr": "Ready Steady Bang! Coppercube clone.",
         "title": "Ready Steady Bang!",
-        "order": 18
+        "order": 18,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -9209,7 +9115,8 @@
       "settings": {
         "meta_descr": "Duck Hunt Coppercube clone.",
         "title": "Duck Hunt",
-        "order": 19
+        "order": 19,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -9908,7 +9815,8 @@
       "settings": {
         "meta_descr": "Error 404 Not Found.",
         "title": "404",
-        "order": 3
+        "order": 3,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -10527,7 +10435,8 @@
       "settings": {
         "meta_descr": "Snake and Ladder  Board Game.",
         "title": "Snake Game",
-        "order": 22
+        "order": 22,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -11223,7 +11132,8 @@
       "settings": {
         "meta_descr": "Match making game.\n",
         "title": "Matchmaking game",
-        "order": 24
+        "order": 24,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -11919,7 +11829,8 @@
       "settings": {
         "meta_descr": "Purchasing for users who have previously donated money.",
         "title": "Purchasing Form",
-        "order": 7
+        "order": 7,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -12519,7 +12430,8 @@
       "settings": {
         "meta_descr": "Sunnland Forest complete 2D level.",
         "title": "Sunnyland Forest",
-        "order": 23
+        "order": 23,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -13156,7 +13068,8 @@
       "settings": {
         "meta_descr": "Duck Hunt Coppercube clone.",
         "title": "8 Directional 2D Character",
-        "order": 20
+        "order": 20,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -13855,7 +13768,8 @@
       "settings": {
         "meta_descr": "How to create a screensaver for windows using coppercube 3D game engine.\n",
         "title": "Creating screen saver with coppercube",
-        "order": 29
+        "order": 29,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -15009,7 +14923,8 @@
       "settings": {
         "meta_descr": "A CopperCube Behavior to add cheats into game.",
         "title": "Behavior Cheat Codes ",
-        "order": 9
+        "order": 9,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -15680,7 +15595,8 @@
       "settings": {
         "meta_descr": "A Coppercube Behavior to add Console based cheats into game.",
         "title": "Behavior Console Cheat ",
-        "order": 10
+        "order": 10,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -16351,7 +16267,8 @@
       "settings": {
         "meta_descr": "A Coppercube Behavior  to Animate text of a 2D overlay.",
         "title": "Behavior Text Animation",
-        "order": 11
+        "order": 11,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -17022,7 +16939,8 @@
       "settings": {
         "meta_descr": "A Coppercube Plugin for keyboard shortcuts.",
         "title": "Plugin Keyboard Shortcuts",
-        "order": 8
+        "order": 8,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -17693,7 +17611,8 @@
       "settings": {
         "meta_descr": "Coppercube paid and free Assets to download!",
         "title": "Assets",
-        "order": 1
+        "order": 1,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -18643,7 +18562,8 @@
       "settings": {
         "meta_descr": "Snake and Ladder  Board Game.",
         "title": "Snake And Ladder",
-        "order": 21
+        "order": 21,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -19342,7 +19262,8 @@
       "settings": {
         "meta_descr": "A Coppercube Behavior  of camera script for 2D games .",
         "title": "Behavior Camera Script 2D",
-        "order": 12
+        "order": 12,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -20013,7 +19934,8 @@
       "settings": {
         "meta_descr": "Helix jump Coppercube clone.",
         "title": "GTA VC Ripping,converting and cloning",
-        "order": 30
+        "order": 30,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -21356,7 +21278,8 @@
       "settings": {
         "meta_descr": "Doodle Jump Coppercube clone.",
         "title": "Doodle Jump",
-        "order": 16
+        "order": 16,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -22052,7 +21975,8 @@
       "settings": {
         "meta_descr": "Helix jump Coppercube clone.",
         "title": "Helix Jump",
-        "order": 15
+        "order": 15,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -22748,7 +22672,8 @@
       "settings": {
         "meta_descr": "A Coppercube Action to rotate an object with mouse.",
         "title": "Action Rotate An Object WIth Mouse",
-        "order": 14
+        "order": 14,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
@@ -23419,7 +23344,8 @@
       "settings": {
         "meta_descr": "A Coppercube Action to read a specific line of text from a file.",
         "title": " Action Read Specific Line",
-        "order": 13
+        "order": 13,
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
         {
