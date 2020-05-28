@@ -1108,7 +1108,7 @@ section.lazy-placeholder:after {
 }
 .cid-s0fveixl3c {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   background-color: #2e2e2e;
 }
 .cid-s0fveixl3c .mbr-section-subtitle {
@@ -20436,15 +20436,6 @@ section.lazy-placeholder:after {
 .cid-s064fLlfHa .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-s06aFFBa2W {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #cccccc;
-}
-.cid-s06aFFBa2W .mbr-text,
-.cid-s06aFFBa2W blockquote {
-  color: #767676;
-}
 .cid-s06ay0WJbK {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -20480,6 +20471,15 @@ section.lazy-placeholder:after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.cid-s06aFFBa2W {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #cccccc;
+}
+.cid-s06aFFBa2W .mbr-text,
+.cid-s06aFFBa2W blockquote {
+  color: #767676;
 }
 .cid-s0fqX2BdN1 {
   padding-top: 15px;
