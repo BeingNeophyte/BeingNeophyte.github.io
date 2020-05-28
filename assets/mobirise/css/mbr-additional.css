@@ -20047,6 +20047,15 @@ section.lazy-placeholder:after {
 .cid-s069LtXJcC .card-title {
   text-align: left;
 }
+.cid-s06aFFBa2W {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #cccccc;
+}
+.cid-s06aFFBa2W .mbr-text,
+.cid-s06aFFBa2W blockquote {
+  color: #767676;
+}
 .cid-s064fLlfHa .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -20471,15 +20480,6 @@ section.lazy-placeholder:after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-}
-.cid-s06aFFBa2W {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #cccccc;
-}
-.cid-s06aFFBa2W .mbr-text,
-.cid-s06aFFBa2W blockquote {
-  color: #767676;
 }
 .cid-s0fqX2BdN1 {
   padding-top: 15px;
