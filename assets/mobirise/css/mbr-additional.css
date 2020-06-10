@@ -1277,6 +1277,56 @@ section.lazy-placeholder:after {
 .cid-r2n9MFEXJT P {
   text-align: left;
 }
+.cid-aIR5hJmlWn .hidden {
+  display: none;
+}
+.cid-aIR5hJmlWn .witsec-socialbar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99999;
+}
+.cid-aIR5hJmlWn .witsec-socialbar a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0%;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon {
+  margin: 0rem;
+}
+.cid-aIR5hJmlWn .witsec-socialbar a:hover {
+  background-color: #000000;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon1 {
+  background: #3b5998;
+  color: #ffffff;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon2 {
+  background: #bb0000;
+  color: #ffffff;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon3 {
+  background: #232323;
+  color: #ffffff;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon4 {
+  background: #007bb5;
+  color: #ffffff;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon5 {
+  background: #bb0000;
+  color: #ffffff;
+}
+.cid-aIR5hJmlWn .witsec-socialbar .icon6 {
+  background: #232323;
+  color: #ffffff;
+}
 .cid-qPVP1oBrhS {
   padding-top: 120px;
   padding-bottom: 60px;
@@ -19192,51 +19242,4 @@ section.lazy-placeholder:after {
 }
 .cid-s0fEk7yjaZ P {
   text-align: left;
-}
-.cid-s064fMUnyY .witsec-socialbar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 99999;
-}
-.cid-s064fMUnyY .witsec-socialbar a {
-  display: block;
-  text-align: center;
-  transition: all 0.3s ease;
-  color: #ffffff;
-  padding: 1rem;
-  font-size: 1rem;
-  border-radius: 0%;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon {
-  margin: 0rem;
-}
-.cid-s064fMUnyY .witsec-socialbar a:hover {
-  background-color: #000000;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon1 {
-  background: #3b5998;
-  color: #ffffff;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon2 {
-  background: #bb0000;
-  color: #ffffff;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon3 {
-  background: #232323;
-  color: #ffffff;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon4 {
-  background: #007bb5;
-  color: #ffffff;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon5 {
-  background: #bb0000;
-  color: #ffffff;
-}
-.cid-s064fMUnyY .witsec-socialbar .icon6 {
-  background: #232323;
-  color: #ffffff;
 }
