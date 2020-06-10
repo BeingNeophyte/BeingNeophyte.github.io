@@ -1327,6 +1327,34 @@ section.lazy-placeholder:after {
   background: #232323;
   color: #ffffff;
 }
+.cid-LGFFzH6Pv3 .hidden {
+  display: none;
+}
+.cid-LGFFzH6Pv3 .floating-bar {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #149dcc;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px #999;
+  transition: 0.3s;
+  z-index: 99999;
+}
+.cid-LGFFzH6Pv3 .floating-bar:hover {
+  background-color: #4db6da;
+}
+.cid-LGFFzH6Pv3 .floating-button {
+  color: #ffffff;
+}
+.cid-LGFFzH6Pv3 .valign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .cid-qPVP1oBrhS {
   padding-top: 120px;
   padding-bottom: 60px;
