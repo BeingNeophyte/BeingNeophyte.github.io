@@ -1106,6 +1106,40 @@ section.lazy-placeholder:after {
 .cid-qPNjM9v7bi .mbr-section-btn {
   text-align: center;
 }
+.cid-GqP9CxEyDc {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #2e2e2e;
+}
+.cid-GqP9CxEyDc body {
+  background: linear-gradient(to left, #2e2e2e, #0f7699);
+  min-height: 100vh;
+}
+.cid-GqP9CxEyDc .bg {
+  background: #2e2e2e;
+}
+.cid-GqP9CxEyDc .width-auto {
+  width: auto;
+}
+.cid-GqP9CxEyDc .text-lg {
+  font-size: 2rem;
+}
+.cid-GqP9CxEyDc .carousel-indicators li {
+  border: none;
+  background: #2e2e2e;
+}
+.cid-GqP9CxEyDc .carousel-indicators li.active {
+  background: #0f7699;
+}
+@media (min-width: 300px) {
+  .cid-GqP9CxEyDc .imgage-holder {
+    width: 100%;
+  }
+  .cid-GqP9CxEyDc .text-holder {
+    width: 100%;
+    font-size: 16px;
+  }
+}
 .cid-s0fveixl3c {
   padding-top: 60px;
   padding-bottom: 90px;
