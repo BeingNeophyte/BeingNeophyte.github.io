@@ -7,10 +7,10 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo2-128x128-2.png" type="image/x-icon">
-  <meta name="description" content="A CopperCube Behavior to add cheats into game.">
+  <meta name="description" content="In this tutorial we are going to see how we can export the embedded textures as seperate files using Blender 3D.">
   
   
-  <title>Behavior Cheat Codes </title>
+  <title>Exporting embedded textures as seperate files in Blender 3D</title>
   <link rel="stylesheet" href="assets/material-design/css/material-icons.min.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -48,26 +48,26 @@
 <!-- /Analytics -->
 
 
-  <section class="header5 cid-r4xGPLa9rT" id="header5-bb">
+  <section class="mbr-section content5 cid-s72J7gU50z mbr-parallax-background" id="content5-j4">
 
     
 
-    
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);">
+    </div>
+
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center pb-3 mbr-fonts-style display-1">Cheat Codes Behavior For Coppercube 3D</h1>
-                <p class="mbr-text align-center display-5 pb-3 mbr-fonts-style">A Coppercube Behavior to add cheat codes to your game projects. Which wil then execute the assigned action when the correct keys will be pressed during the gameplay.<br><br><br><em>Installation instruction<strong>: </strong>Download .zip archive, extract its content (usually a .js file) to Your Documents\CopperCube\extensions on Windows or ~/Documents/CopperCube/extensions on Mac OS X, restart CopperCube.<br></em><br>This Extension/Plugin is<strong> Free</strong> to download, if you want you can also <strong>Donate </strong>via Paypal, to support my work to provide you more good tutorials and more Coppercube related stuff.<br></p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="https://www.paypal.me/Vazahat" target="_blank"><span class="mbri-like mbr-iconfont mbr-iconfont-btn"></span>DONATE</a>
-                        <a class="btn btn-md btn-secondary display-4" href="https://neophyte.cf/downloadables/behavior_Cheats_Sheet.zip"><span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>DOWNLOAD WITHOUT DONATING</a></div>
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Exporting embedded textures from 3D models using Blender</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">You bought a Cool 3D model for your project and imported it to your Game Engine, but the textures aren't showing up because your game engine doesn't support embedded textures,then this tutorial will teach you how you can export embedded textures as seperated files using third party tools.<br><br></h3>
+                
+                
             </div>
         </div>
     </div>
-
-    
 </section>
 
-<section class="menu cid-r4xGPLWry4" once="menu" id="menu1-bc">
+<section class="menu cid-s72J7hfgym" once="menu" id="menu1-j5">
 
     
 
@@ -94,14 +94,175 @@
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
                     <a class="nav-link link text-white display-4" href="index.html">
                         <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a>
-                </li><li class="nav-item dropdown open"><a class="nav-link link text-white dropdown-toggle display-4" href="tutorials.html" data-toggle="dropdown-submenu" aria-expanded="true"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn"></span>
+                </li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="tutorials.html" data-toggle="dropdown-submenu" aria-expanded="true"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn"></span>
                         Tutorials</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="page32.html"><span class="material material-ondemand-video mbr-iconfont mbr-iconfont-btn"></span>Video Tutorials</a><a class="text-white dropdown-item display-4" href="tutorials.html" aria-expanded="true"><span class="mbrib-edit mbr-iconfont mbr-iconfont-btn"></span>Text Tutorials</a></div> </li><li class="nav-item"><a class="nav-link link text-white display-4" href="assets.html"><span class="mbri-shopping-bag mbr-iconfont mbr-iconfont-btn"></span>Assets</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="user_posts.html"><span class="mbri-users mbr-iconfont mbr-iconfont-btn"></span>User's Posts</a></li></ul>
             
         </div>
     </nav>
 </section>
 
-<section class="mbr-section mbr-section__comments" id="facebook-comments-block-bd" data-rv-view="654" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;">
+<section class="header1 cid-s73T60hBol" id="header1-jy">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Using Blender 3D</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">by packing and unpacking .blend files &amp; by Using UV/Image edit</h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">You can use blender 3D to export your embedded textures as seperated files by loading up the model into blender. It doesn't matter in which format the 3D model is either its a fbx, 3ds or obj file it doesn't matter.
+<br>just import the model into blender and follow the process shown in rest of the tutorial. 
+<br>There can be different ways to export textures from the embeded model using blender but today in this tutorial we are going to see 2 methods to this, one is to simply save the texture as a image file and the second is to pack and unpack .blend&nbsp;<br> 
+                </p>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="tut7.html#header4-j7"><span class="material material-looks-one mbr-iconfont mbr-iconfont-btn"></span>
+                        Method 1</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="tut7.html#header4-j9"><span class="material material-looks-two mbr-iconfont mbr-iconfont-btn"></span>
+                        Method 2</a></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="header4 cid-s72J7i76Te" id="header4-j7">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Method 1</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Using UV/Image editor in blender to save texture as Image file</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Assuming that you have already loaded or &nbsp;imported the model file into blender and it has textures applied to it.<br>Now just change the viewport from 3D view to UV/Image editor as shown in the picture down below.</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/tut7.0.png" alt="Method 1" title="Change view type to UV/Image editor" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-s72J7iwaAb" id="header4-j8">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Now select the texture you want to export there can be many textures depending on your 3D model for example Normal Map, Diffuse, Specular, etc. Select the one you want to save as shown in the picture below.&nbsp;</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/tut7.1.png" alt="Method 1" title="select the texture to save" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-s73MTi84y7" id="header4-jw">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Once you have selected the texture you want to export then go to image tab and select save image and then save the image file to desired location as shown in the image below. That's it you have your texturesm, now go ahead and import them to your game engine Like Coppercube, Unity or in whatever program you want to.&nbsp;</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/tut7.2.png" alt="Method 1" title="Go to image and save as image file" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-s72J7iVt3D" id="header4-j9">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                <h1 class="mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style display-2">Method 2</h1>
+                <h3 class="mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style display-5">Packing and unpacking .blend file</h3>
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">If the above method of saving image file doesn't &nbsp;work for you then you can always use the second method of packing and unpacking of blend files. Load or import your 3D Model into blender. First you need to pack the file, then go to File &gt; External Data &gt; Pack All into Blend.<br></p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/tut7.3-1.png" alt="Method 2" title="Pack all into .blend" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header4 cid-s73MUONrsr" id="header4-jx">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="media-content col-md-10">
+                
+                
+                <div class="mbr-text align-center mbr-white pb-3">
+                    <p class="mbr-text mbr-fonts-style display-7">Then you can unpack the files to unpacks files go to File &gt; Externala data &gt; Unpack All into Files.
+<br>this will export all the files used by the 3D model to the Folder. Always choose the option "Use file int the current directory" while unpacking so that all the files goes to the same folder. See the picture Below to get idea about how to pack and unpack file</p>
+                </div>
+                
+            </div>
+            <div class="mbr-figure pt-5">
+                <img src="assets/images/tut7.4.png" alt="Method 2" title="Unpack all to files" style="width: 60%;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header1 cid-s72J7pho7M" id="header1-jp">
+
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2">Additional Info</h1>
+                
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">Blender version 2.79b was used while writing the tutorial if you want you can use the latest blender 2.8,<br>Also use blender renderer as your renderer not cycles or eevee renderer.&nbsp;<br> 
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section__comments" id="facebook-comments-block-jq" data-rv-view="988" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;">
          
     <div class="mbr-section__container mbr-section__container--isolated addons-container">
         <div class="addons-row">
@@ -112,7 +273,7 @@
     </div>
 </section>
 
-<section class="cid-r4xGPMQjLb" id="social-buttons3-be">
+<section class="cid-s72J7pXp24" id="social-buttons3-jr">
     
     
 
@@ -154,7 +315,7 @@
     </div>
 </section>
 
-<section class="cid-r4xGPNvrZb" id="footer1-bf">
+<section class="cid-s72J7qih5p" id="footer1-js">
 
     
 
@@ -197,7 +358,7 @@
             <div class="media-container-row mbr-white">
                 <div class="col-sm-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2018 Neophyte - All Rights Reserved
+                        © Copyright 2018-2019 Neophyte - All Rights Reserved
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -208,7 +369,7 @@
     </div>
 </section>
 
-<section class="header1 cid-s6x0CnN1Zd" id="design-block-hr">
+<section class="header1 cid-s72J7qKeft" id="design-block-jt">
     
 
     <a href="contact_us.html" class="floating-bar">
@@ -221,7 +382,7 @@
 
 </section>
 
-<section class="_customHTML cid-s6x0CV2qy0" id="design-block-hs">
+<section class="_customHTML cid-s72J7r03kd" id="design-block-ju">
  
   
      
@@ -250,6 +411,8 @@
 </section>
 
 
+
+
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
@@ -258,6 +421,7 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
   <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
