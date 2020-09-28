@@ -1449,7 +1449,7 @@ section.lazy-placeholder:after {
 .cid-qPVP1oBrhS {
   padding-top: 120px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/rigging-resized-711x4002.jpg");
+  background-image: url("../../../assets/images/rigging-resized-711x4000.jpg");
 }
 .cid-qPNjM6nDrs .navbar {
   padding: .5rem 0;
@@ -25197,6 +25197,28 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-s823MjfGug .mbr-section-title {
+  text-align: left;
+}
+.cid-sbRKCjBpCG {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #b1a374, #a09fc0);
+}
+@media (min-width: 992px) {
+  .cid-sbRKCjBpCG .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sbRKCjBpCG .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-sbRKCjBpCG .mbr-text,
+.cid-sbRKCjBpCG .mbr-section-btn {
+  text-align: left;
+}
+.cid-sbRKCjBpCG .mbr-section-title {
   text-align: left;
 }
 .cid-s823MjG2aL {
