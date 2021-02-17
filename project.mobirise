@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Neophyte.CF",
-    "currentPage": "tut1.html",
+    "currentPage": "tut4.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 765,
     "versionPublish": "4.12.3",
@@ -18996,7 +18996,8 @@
         "meta_descr": "A CopperCube Behavior to add cheats into game.",
         "title": "Behavior Cheat Codes ",
         "order": 10,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/cheat%20codes-512x308.png"
       },
       "components": [
         {
@@ -19912,7 +19913,8 @@
         "meta_descr": "A Coppercube Behavior to add Console based cheats into game.",
         "title": "Behavior Console Cheat ",
         "order": 11,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/console%20cheat-512x308.png"
       },
       "components": [
         {
@@ -20828,7 +20830,8 @@
         "meta_descr": "A Coppercube Behavior  to Animate text of a 2D overlay.",
         "title": "Behavior Text Animation",
         "order": 12,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/text%20animation-512x308.png"
       },
       "components": [
         {
@@ -21744,7 +21747,8 @@
         "meta_descr": "A Coppercube Plugin for keyboard shortcuts.",
         "title": "Plugin Keyboard Shortcuts",
         "order": 9,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/keyboard%20shortcuts-512x308.png"
       },
       "components": [
         {
@@ -24869,7 +24873,8 @@
         "meta_descr": "A Coppercube Behavior  of camera script for 2D games .",
         "title": "Behavior Camera Script 2D",
         "order": 13,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/camera%20script%20beahvior-512x308.png"
       },
       "components": [
         {
@@ -29229,7 +29234,8 @@
         "meta_descr": "A Coppercube Action to rotate an object with mouse.",
         "title": "Action Rotate An Object WIth Mouse",
         "order": 16,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/untitled-512x308.png"
       },
       "components": [
         {
@@ -30145,7 +30151,8 @@
         "meta_descr": "A Coppercube Action to read a specific line of text from a file.",
         "title": " Action Read Specific Line",
         "order": 15,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/read%20a%20line-512x308.png"
       },
       "components": [
         {
@@ -36170,7 +36177,8 @@
         "meta_descr": "A Coppercube Behavior  to do something if an object is on ground .",
         "title": "Behavior On Ground",
         "order": 14,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/untitled.png"
       },
       "components": [
         {
@@ -37086,7 +37094,8 @@
         "meta_descr": "A Coppercube plugin to snap  scenenode to an object.",
         "title": "Plugin Snap To Object",
         "order": 17,
-        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
+        "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
+        "meta_image": "@PROJECT_PATH@/assets/images/snap-to-object.png"
       },
       "components": [
         {
