@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Neophyte.CF",
-    "currentPage": "vid_tut1.html",
+    "currentPage": "Plugin_Snap_To_Object.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 861,
+    "uniqCompNum": 870,
     "versionPublish": "4.12.4",
     "theme": {
       "name": "mobirise4",
@@ -1048,7 +1048,7 @@
       "settings": {
         "meta_descr": "Animating a 3d model in blender using the riggify and makewalk addon.",
         "title": "Animating using riggify and makewalk in blender",
-        "order": 34,
+        "order": 35,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/06-640x588.jpg"
       },
@@ -1065,7 +1065,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/rigging-resized-711x4002.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Animating A Model In Blender Using Riggify And MakeWAlk</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">When messing up with Game Development people would usually\n stuck on getting animations for their models. This tutorial completely focus on animating 3D model easily without stressing your nerves.</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/rigging-resized-711x4003.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Animating A Model In Blender Using Riggify And MakeWAlk</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">When messing up with Game Development people would usually\n stuck on getting animations for their models. This tutorial completely focus on animating 3D model easily without stressing your nerves.</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qPVP1oBrhS",
           "_anchor": "content5-2v",
           "_protectedParams": [],
@@ -4614,7 +4614,7 @@
       "settings": {
         "meta_descr": "Creating a 2D Game \"Mario\" using coppercube 3D software.\n",
         "title": "2D Game Tutorial",
-        "order": 35,
+        "order": 36,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/step8-1023x728.png"
       },
@@ -6228,7 +6228,7 @@
       "settings": {
         "meta_descr": "Creating an Android App \"Relax Melodies\" using coppercube 3D software.\n",
         "title": "Android app making with Coppercube",
-        "order": 36,
+        "order": 37,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/melodies-1024x727.png"
       },
@@ -7647,7 +7647,7 @@
       "settings": {
         "meta_descr": "How to create a simple bowling game using physics in Coppercube 3d.\n",
         "title": "How to use Physics in Coppercube",
-        "order": 37,
+        "order": 38,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/step3-1026x727.png"
       },
@@ -9108,7 +9108,7 @@
       "settings": {
         "meta_descr": "Flappy Bird Coppercube clone.",
         "title": "Flappy Bird",
-        "order": 26,
+        "order": 27,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-5.jpeg"
       },
@@ -10052,7 +10052,7 @@
       "settings": {
         "meta_descr": "Ready Steady Bang! Coppercube clone.",
         "title": "Ready Steady Bang!",
-        "order": 27,
+        "order": 28,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/itsnicethat-largeimages1-705x456.jpeg"
       },
@@ -10999,7 +10999,7 @@
       "settings": {
         "meta_descr": "Duck Hunt Coppercube clone.",
         "title": "Duck Hunt",
-        "order": 28,
+        "order": 29,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/duckhunt-758x426.jpeg"
       },
@@ -12502,7 +12502,7 @@
       "settings": {
         "meta_descr": "Snake and Ladder  Board Game.",
         "title": "Snake Game",
-        "order": 31,
+        "order": 32,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-2.jpeg"
       },
@@ -13444,7 +13444,7 @@
       "settings": {
         "meta_descr": "Match making game.\n",
         "title": "Matchmaking game",
-        "order": 33,
+        "order": 34,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-4.jpeg"
       },
@@ -15234,7 +15234,7 @@
       "settings": {
         "meta_descr": "Sunnland Forest complete 2D level.",
         "title": "Sunnyland Forest",
-        "order": 32,
+        "order": 33,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-3.jpeg"
       },
@@ -16176,7 +16176,7 @@
       "settings": {
         "meta_descr": "Duck Hunt Coppercube clone.",
         "title": "8 Directional 2D Character",
-        "order": 29,
+        "order": 30,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
@@ -17122,7 +17122,7 @@
       "settings": {
         "meta_descr": "How to create a screensaver for windows using coppercube 3D game engine.\n",
         "title": "Creating screen saver with coppercube",
-        "order": 38,
+        "order": 39,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/step4-1020x726.png"
       },
@@ -23557,7 +23557,7 @@
       "settings": {
         "meta_descr": "Snake and Ladder  Board Game.",
         "title": "Snake And Ladder",
-        "order": 30,
+        "order": 31,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
@@ -25420,7 +25420,7 @@
       "settings": {
         "meta_descr": "Tuorial on how to clone GTA VC game in Coppercube.",
         "title": "GTA VC Ripping,converting and cloning",
-        "order": 39,
+        "order": 40,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/part3.4-1021x728.png"
       },
@@ -26978,7 +26978,7 @@
       "settings": {
         "meta_descr": "Doodle Jump Coppercube clone.",
         "title": "Doodle Jump",
-        "order": 25,
+        "order": 26,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-6.jpeg"
       },
@@ -27922,7 +27922,7 @@
       "settings": {
         "meta_descr": "Helix jump Coppercube clone.",
         "title": "Helix Jump",
-        "order": 23,
+        "order": 24,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/maxresdefault-7.jpeg"
       },
@@ -31639,7 +31639,7 @@
       "settings": {
         "meta_descr": "Doctor Hero is a game for windows platform in which the player has to deal with viruses and pills. This game consist of 8 diffrent level Avoid the viruses and collect all the pills to complete each level.",
         "title": "Doctor Hero by Jeth Gaming",
-        "order": 41,
+        "order": 42,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>"
       },
       "components": [
@@ -32684,7 +32684,7 @@
       "settings": {
         "meta_descr": "In this tutorial we are going to see how we can export the embedded textures as seperate files using Blender 3D.",
         "title": "Exporting embedded textures as seperate files in Blender 3D",
-        "order": 40,
+        "order": 41,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/tut7.0.png"
       },
@@ -34816,7 +34816,7 @@
       "settings": {
         "meta_descr": "In this tutorial am gonna show you, How you can create your own 2D game without writing a single line of code. We are using Coppercube 6 game engine for our game.",
         "title": "How to create 2D game without Coding?",
-        "order": 42,
+        "order": 43,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/download-2.png"
       },
@@ -38560,7 +38560,7 @@
       "settings": {
         "meta_descr": "Some nice particle effects for CopperCube game engine.",
         "title": "CopperCube Particles",
-        "order": 24,
+        "order": 25,
         "header_custom": "<script data-ad-client=\"ca-pub-9711941522878857\" async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/effects-676x318.png"
       },
